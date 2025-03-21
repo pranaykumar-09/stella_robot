@@ -10,10 +10,10 @@ import pvporcupine
 import google.generativeai as genai
 
 # === CONFIGURE KEYS & MODELS ===
-ACCESS_KEY = "L6UM2BOy64ZJBGeXNu8z/p3tFqxzfJ+tM1N+APM0TEx9k063BeQLfw=="  # Replace with your Porcupine key
+ACCESS_KEY = ""  # Replace with your Porcupine key
 WAKEWORD_MODEL = "stella_wakeword.ppn"  # Path to wake word model
 VOSK_MODEL_PATH = "vosk-model-small-en-us-0.15"  # Path to Vosk model
-GEMINI_API_KEY = "AIzaSyAAR-fME5GteEQFuD3vt3FbqpceHMny_LA"  # Replace with your Gemini API Key
+GEMINI_API_KEY = ""  # Replace with your Gemini API Key
 
 # === LOAD MODELS ===
 genai.configure(api_key=GEMINI_API_KEY)
